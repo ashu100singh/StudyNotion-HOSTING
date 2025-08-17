@@ -86,6 +86,7 @@ exports.signup = async (req, res) => {
       about: null,
       contactNumber: null,
     })
+    
     const user = await User.create({
       firstName,
       lastName,
@@ -95,7 +96,7 @@ exports.signup = async (req, res) => {
       accountType: accountType,
       approved: approved,
       additionalDetails: profileDetails._id,
-      image: "",
+      image: `https://api.dicebear.com/5.x/initials/svg?seed=${firstName} ${lastName}`
     })
 
     return res.status(200).json({
