@@ -82,7 +82,7 @@ function ReviewSlider() {
                     <ReactStars
                       count={5}
                       value={review.rating}
-                      size={20}
+                      size={15}
                       edit={false}
                       activeColor="#ffd700"
                       emptyIcon={<FaStar />}
