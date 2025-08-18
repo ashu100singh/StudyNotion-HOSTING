@@ -74,8 +74,8 @@ exports.contactUsEmail = (
     
     <body>
         <div class="container">
-            <a href="https://studynotion-edtech-project.vercel.app"><img class="logo"
-                    src="https://i.ibb.co/7Xyj3PC/logo.png" alt="StudyNotion Logo"></a>
+            <a href="https://studynotion-ashy.vercel.app/"><img class="logo"
+                    src="https://tse4.mm.bing.net/th/id/OIP.fn2j34FbADcDFSJqz2ZQUwHaFx?pid=Api&P=0&h=180" alt="StudyNotion Logo"></a>
             <div class="message">Contact Form Confirmation</div>
             <div class="body">
                 <p>Dear ${firstname} ${lastname},</p>
